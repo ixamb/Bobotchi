@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f49e668efd4613accb3cb4f5169a44, type: 3}
+  m_Name: Parquet
+  m_EditorClassIdentifier: Assembly-CSharp::BB.Entities.Floor
+  guid: c6d9c965-afd1-492c-8792-82cb8d7078d7
+  name: Parquet simple sombre
+  description: 
+  extendedDescription: 
+  sprite: {fileID: 2800000, guid: 87040d5b4256f439fb5608f985ca0be4, type: 3}
+  availableInShop: 1
+  singlePurchase: 1
+  currency: 0
+  price: 0
+  collection: 0
+  surfaceType: 0
+  isDefault: 1

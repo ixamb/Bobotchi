@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822af624f56449468fa35657b5d5e5c2, type: 3}
+  m_Name: "Caf\xE9-go\xFBter"
+  m_EditorClassIdentifier: Assembly-CSharp::Bobotchi.Entities.Merchant
+  guid: 2b68f111-ef3c-4963-9280-01828e64761a
+  name: "Au caf\xE9 go\xFBter"
+  code: MERCHANT-CAFE-GOUTER
+  description: "Des d\xE9lices sucr\xE9s, vreument"
+  extendedDescription: 
+  sprite: {fileID: 0}
+  foods:
+  - {fileID: 11400000, guid: 2dcea4c7ebcc3446c95e97bf0c8492a2, type: 2}

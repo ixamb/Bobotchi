@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae88d6f73df4e51af6d4d9b9b26c905, type: 3}
+  m_Name: Mission Website
+  m_EditorClassIdentifier: Assembly-CSharp::BB.Missions.Mission
+  guid: a3ce50fa-6b1f-424c-a444-c4a58600d832
+  title: "D\xE9velopper un site web"
+  duration:
+    hours: 0
+    minutes: 1
+    seconds: 0
+  endMissionActions:
+  - {fileID: 11400000, guid: eb957e67c58c047c8ada093ef8edac08, type: 2}
