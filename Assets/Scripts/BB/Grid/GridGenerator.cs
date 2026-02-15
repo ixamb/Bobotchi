@@ -2,7 +2,7 @@ using System;
 using BB.Grid.Tiles;
 using UnityEngine;
 using Object = UnityEngine.Object;
-using Vector2Int = Core.Types.Vector2Int;
+using Vector2Int = Core.Runtime.Types.Vector2Int;
 
 namespace BB.Grid
 {

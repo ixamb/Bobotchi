@@ -1,7 +1,7 @@
 using System.Linq;
 using BB.Services.Missions;
 using BB.UI.Missions.Components;
-using Core.Services.Views;
+using Core.Runtime.Services.Views;
 using UnityEngine;
 
 namespace BB.UI.Missions

@@ -2,8 +2,8 @@ using System;
 using BB.Data;
 using BB.Services.Modules.GameData;
 using BB.Services.Modules.LocalSave;
-using Core.Services.Notifications;
-using Core.Services.Notifications.Dto;
+using Core.Runtime.Services.Notifications;
+using Core.Runtime.Services.Notifications.Dto;
 using UnityEngine;
 
 namespace BB.Management.StatState

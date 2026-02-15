@@ -1,5 +1,5 @@
 using BB.UI.Common.Components;
-using Core.Services.Views;
+using Core.Runtime.Services.Views;
 using UnityEngine;
 
 namespace BB.UI

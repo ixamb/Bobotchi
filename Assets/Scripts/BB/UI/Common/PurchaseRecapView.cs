@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using BB.Services.Modules.Cart;
 using BB.UI.Common.Components;
-using Core.Extensions;
-using Core.Services.Views;
+using Core.Runtime.Extensions;
+using Core.Runtime.Services.Views;
 using UnityEngine;
 using UnityEngine.UI;
 

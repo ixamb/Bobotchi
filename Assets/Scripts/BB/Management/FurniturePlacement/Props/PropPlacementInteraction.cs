@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using BB.Grid.Tiles;
-using Core.Extensions;
-using Core.Mechanics.Input.ObjectTouch;
+using Core.Runtime.Extensions;
+using Core.Runtime.Mechanics.Input.ObjectTouch;
 using UnityEngine;
 
 namespace BB.Management.FurniturePlacement.Props

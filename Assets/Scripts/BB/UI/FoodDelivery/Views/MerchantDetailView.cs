@@ -4,7 +4,7 @@ using System.Linq;
 using BB.Entities;
 using BB.UI.Common.Components;
 using BB.UI.FoodDelivery.Components;
-using Core.Services.Views;
+using Core.Runtime.Services.Views;
 using TMPro;
 using UnityEngine;
 

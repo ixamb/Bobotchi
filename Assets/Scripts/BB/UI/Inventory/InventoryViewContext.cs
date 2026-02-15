@@ -1,7 +1,7 @@
 using System;
 using BB.UI.Inventory.Views;
-using Core.Extensions;
-using Core.Services.Views;
+using Core.Runtime.Extensions;
+using Core.Runtime.Services.Views;
 using UnityEngine;
 using UnityEngine.UI;
 

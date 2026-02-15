@@ -1,6 +1,6 @@
 using System;
-using Core.Services.Views;
-using Core.UI.Components.SingleSelectable;
+using Core.Runtime.Services.Views;
+using Core.Runtime.UI.Components.SingleSelectable;
 using UnityEngine;
 using UnityEngine.UI;
 

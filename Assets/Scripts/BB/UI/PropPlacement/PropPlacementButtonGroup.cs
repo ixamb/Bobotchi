@@ -1,6 +1,6 @@
 using BB.Management.FurniturePlacement;
 using BB.Management.FurniturePlacement.Props;
-using Core.Extensions;
+using Core.Runtime.Extensions;
 using UnityEngine;
 using UnityEngine.UI;
 

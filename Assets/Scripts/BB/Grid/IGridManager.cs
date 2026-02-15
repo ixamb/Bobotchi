@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using BB.Grid.Tiles;
-using Core.Services;
-using Core.Types;
+using Core.Runtime.Services;
+using Core.Runtime.Types;
 
 namespace BB.Grid
 {

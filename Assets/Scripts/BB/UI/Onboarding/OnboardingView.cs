@@ -1,11 +1,10 @@
-using System;
 using System.Linq;
 using BB.Data;
 using BB.Services.Modules.GameData;
 using BB.Services.Modules.LocalSave;
-using Core.Extensions;
-using Core.Services.Views;
-using Core.UI.Components.SingleSelectable;
+using Core.Runtime.Extensions;
+using Core.Runtime.Services.Views;
+using Core.Runtime.UI.Components.SingleSelectable;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -50,7 +49,7 @@ namespace BB.UI.Onboarding
                 InitializeInventoryData();
                 BBLocalSaveService.Instance.Save();
                 
-                await Core.Services.Scenes.SceneService.Instance.LoadSceneAsync(Constants.SceneNames.Game,
+                await Core.Runtime.Services.Scenes.SceneService.Instance.LoadSceneAsync(Constants.SceneNames.Game,
                     LoadSceneMode.Single);
             });
         }

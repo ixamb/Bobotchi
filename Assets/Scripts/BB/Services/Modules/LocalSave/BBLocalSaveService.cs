@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using BB.Services.Modules.LocalSave.Handlers;
-using Core.Services;
-using Core.Services.LocalSave;
+using Core.Runtime.Services.LocalSave;
+using Core.Runtime.Services;
 
 namespace BB.Services.Modules.LocalSave
 {

@@ -1,8 +1,8 @@
 using System;
 using BB.Data;
 using BB.Services.Modules.GameData;
-using Core.Extensions;
-using Core.Services.Views;
+using Core.Runtime.Extensions;
+using Core.Runtime.Services.Views;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

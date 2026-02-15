@@ -7,7 +7,7 @@ using BB.Services.Modules.GameData;
 using BB.Services.Modules.LocalSave;
 using BB.UI.Common.Components;
 using BB.UI.Inventory.Components;
-using Core.Services.Views;
+using Core.Runtime.Services.Views;
 using JetBrains.Annotations;
 using UnityEngine;
 

@@ -1,6 +1,6 @@
 using BB.Entities;
 using BB.Management.FurniturePlacement.Props;
-using Core.Services;
+using Core.Runtime.Services;
 
 namespace BB.Management.FurniturePlacement
 {

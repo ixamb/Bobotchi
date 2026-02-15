@@ -5,8 +5,8 @@ using BB.Services.Modules.LocalSave;
 using BB.UI.Common;
 using BB.UI.Common.Components;
 using BB.UI.FurnitureDelivery.Views;
-using Core.Extensions;
-using Core.Services.Views;
+using Core.Runtime.Extensions;
+using Core.Runtime.Services.Views;
 using UnityEngine;
 using UnityEngine.UI;
 

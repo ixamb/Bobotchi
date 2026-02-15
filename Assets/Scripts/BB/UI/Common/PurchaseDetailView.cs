@@ -4,7 +4,7 @@ using BB.Entities;
 using BB.Services.Modules.Cart;
 using BB.Services.Modules.LocalSave;
 using BB.UI.Common.Components;
-using Core.Services.Views;
+using Core.Runtime.Services.Views;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

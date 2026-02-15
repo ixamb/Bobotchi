@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using BB.Entities;
 using BB.UI.FoodDelivery.Components;
-using Core.Services.Views;
+using Core.Runtime.Services.Views;
 using UnityEngine;
 
 namespace BB.UI.FoodDelivery.Views

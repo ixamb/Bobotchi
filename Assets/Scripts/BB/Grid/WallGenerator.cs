@@ -1,6 +1,6 @@
 using System;
 using BB.Grid.Tiles;
-using Core.Types;
+using Core.Runtime.Types;
 
 namespace BB.Grid
 {

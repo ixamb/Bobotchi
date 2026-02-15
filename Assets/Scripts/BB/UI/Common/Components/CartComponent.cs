@@ -1,7 +1,7 @@
 using System;
 using BB.Data;
 using BB.Services.Modules.Cart;
-using Core.Extensions;
+using Core.Runtime.Extensions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
