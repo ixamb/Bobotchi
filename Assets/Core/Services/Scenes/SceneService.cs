@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 namespace Core.Services.Scenes
 {
-    internal sealed class SceneService : Singleton<SceneService, ISceneService>, ISceneService
+    public sealed class SceneService : Singleton<SceneService, ISceneService>, ISceneService
     {
         private AsyncOperation _currentOperation;
 

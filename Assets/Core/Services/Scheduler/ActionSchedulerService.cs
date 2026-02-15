@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Core.Services.Scheduler
 {
-    internal sealed class ActionSchedulerService : Singleton<ActionSchedulerService, IActionSchedulerService>, IActionSchedulerService
+    public sealed class ActionSchedulerService : Singleton<ActionSchedulerService, IActionSchedulerService>, IActionSchedulerService
     {
         private readonly Dictionary<string, ActionScheduler> _actionSchedulers = new();
 

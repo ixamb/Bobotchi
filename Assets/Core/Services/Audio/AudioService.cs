@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Core.Services.Audio
 {
-    internal sealed class AudioService : Singleton<AudioService, IAudioService>, IAudioService
+    public sealed class AudioService : Singleton<AudioService, IAudioService>, IAudioService
     {
         [SerializeField] private AudioServiceProperties properties;
         
