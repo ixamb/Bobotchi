@@ -10,12 +10,13 @@ namespace Core.Runtime.Services.Delayer
         private float _duration;
 
         private float _elapsed;
-        private bool _run = false;
+        private bool _run;
         
         internal void Initialize(float durationInSeconds, Action action, Action onDestroy)
         {
             _action = action;
             _duration = durationInSeconds;
+            _onDestroy = onDestroy;
             _run = true;
         }
 
@@ -31,7 +32,7 @@ namespace Core.Runtime.Services.Delayer
             {
                 _action.Invoke();
                 _onDestroy.Invoke();
-                Destroy(gameObject);
+                DestroyImmediate(gameObject);
             }
         }
 
@@ -39,7 +40,7 @@ namespace Core.Runtime.Services.Delayer
         {
             _run = false;
             _onDestroy.Invoke();
-            Destroy(gameObject);
+            DestroyImmediate(gameObject);
         }
     }
 }

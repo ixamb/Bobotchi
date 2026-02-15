@@ -1,31 +1,37 @@
 using System;
 using System.Collections.Generic;
-using Core.Runtime.Services;
+using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Core.Runtime.Services.Delayer
 {
     public sealed class ActionDelayerService : Singleton<ActionDelayerService, IActionDelayerService>, IActionDelayerService
     {
-        private Dictionary<string, ActionDelayer> _actionDelayers = new();
+        private readonly Dictionary<string, ActionDelayer> _actionDelayers = new();
         
         protected override void Init()
         {
         }
+
+        [CanBeNull]
+        public ActionDelayer Get(string code)
+        {
+            return _actionDelayers.GetValueOrDefault(code);
+        }
         
         public void Delay(float durationInSeconds, Action action, string code = "")
         {
-            var actionDelayer = Instantiate(new GameObject($"ActionDelayer_{(code == string.Empty ? Guid.NewGuid() : code)}")
-                .AddComponent<ActionDelayer>(), gameObject.transform);
+            var delayerCode = $"ActionDelayer_{(code == string.Empty ? Guid.NewGuid() : code)}";
+            var actionDelayer = Instantiate(new GameObject(delayerCode).AddComponent<ActionDelayer>(), gameObject.transform);
             actionDelayer.Initialize(durationInSeconds, action, () => _actionDelayers.Remove(code));
+            _actionDelayers.Add(code, actionDelayer);
         }
 
         public void Cancel(string code)
         {
-            if (!_actionDelayers.ContainsKey(code))
+            if (_actionDelayers.Remove(code, out var delayer))
             {
-                _actionDelayers[code].Cancel();
-                _actionDelayers.Remove(code);
+                delayer?.Cancel();
             }
         }
 

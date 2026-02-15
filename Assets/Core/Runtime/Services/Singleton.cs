@@ -35,6 +35,20 @@ namespace Core.Runtime.Services
             }
         }
         
+        internal static void ResetInstance()
+        {
+            if (_instance != null)
+            {
+                if (Application.isPlaying)
+                    Destroy(_instance.gameObject);
+                else
+                    DestroyImmediate(_instance.gameObject);
+            }
+        
+            _instance = null;
+            _itInstance = null;
+        }
+        
         private void Awake()
         {
             if (_instance is null)
