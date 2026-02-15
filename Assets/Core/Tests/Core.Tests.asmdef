@@ -2,7 +2,7 @@
     "name": "Core.Tests",
     "rootNamespace": "",
     "references": [
-        "GUID:724f54ccdd37041dbbf84397a8eb64ff",
+        "GUID:724f54ccdd37041dbbf84397a8eb64ff"
     ],
     "includePlatforms": ["Editor"],
     "excludePlatforms": [],
