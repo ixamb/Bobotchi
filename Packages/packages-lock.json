@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.ixamb.theforge": {
+      "version": "https://github.com/ixamb/TheForge.Unity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.2",
+        "com.unity.mobile.notifications": "2.4.3"
+      },
+      "hash": "fd2e9f9af3f223b3ba88b36f4d467facb3eeeb24"
+    },
     "com.marijnzwemmer.unity-toolbar-extender": {
       "version": "https://github.com/marijnz/unity-toolbar-extender.git",
       "depth": 0,
@@ -119,8 +129,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mobile.notifications": {
-      "version": "2.4.2",
-      "depth": 0,
+      "version": "2.4.3",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.androidjni": "1.0.0"

@@ -6,7 +6,7 @@ using BB.Management.FurniturePlacement;
 using BB.Services.Modules.LocalSave;
 using BB.UI.Inventory.Views;
 using BB.UI.PropPlacement;
-using Core.Runtime.Services.Views;
+using TheForge.Services.Views;
 
 namespace BB.UI.Inventory
 {

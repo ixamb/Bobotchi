@@ -1,4 +1,4 @@
-using Core.Runtime.Mechanics.Input.Drag;
+using TheForge.Mechanics.Input.Drag;
 using UnityEngine;
 
 namespace BB.Misc

@@ -1,8 +1,8 @@
 using BB.Entities;
 using BB.Management.FurniturePlacement;
 using BB.Management.FurniturePlacement.Props;
-using Core.Runtime.Extensions;
-using Core.Runtime.Services.Views;
+using TheForge.Extensions;
+using TheForge.Services.Views;
 using UnityEngine;
 using UnityEngine.UI;
 

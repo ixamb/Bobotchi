@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
-using Core.Runtime.Extensions;
-using Core.Runtime.Services.Views;
+using TheForge.Extensions;
+using TheForge.Services.Views;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

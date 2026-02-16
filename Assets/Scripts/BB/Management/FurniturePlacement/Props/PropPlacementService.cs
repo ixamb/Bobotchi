@@ -7,7 +7,7 @@ using BB.Grid.Tiles;
 using BB.Management.FurniturePlacement.Props.Utils;
 using BB.Services.Modules.GameData;
 using BB.Services.Modules.LocalSave;
-using Vector2Int = Core.Runtime.Types.Vector2Int;
+using Vector2Int = TheForge.Types.Vector2Int;
 
 namespace BB.Management.FurniturePlacement.Props
 {

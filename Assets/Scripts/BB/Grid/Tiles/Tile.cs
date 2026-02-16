@@ -4,7 +4,7 @@ using BB.Data;
 using BB.Grid.Walls;
 using BB.Management.FurniturePlacement.Props;
 using UnityEngine;
-using Vector2Int = Core.Runtime.Types.Vector2Int;
+using Vector2Int = TheForge.Types.Vector2Int;
 
 namespace BB.Grid.Tiles
 {

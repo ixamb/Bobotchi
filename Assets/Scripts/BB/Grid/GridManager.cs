@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using BB.Grid.Tiles;
-using Core.Runtime.Services;
+using TheForge.Services;
 using UnityEngine;
-using Vector2Int = Core.Runtime.Types.Vector2Int;
+using Vector2Int = TheForge.Types.Vector2Int;
 
 namespace BB.Grid
 {

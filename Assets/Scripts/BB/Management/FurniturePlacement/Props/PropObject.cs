@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using BB.Data;
 using BB.Grid.Tiles;
-using Core.Runtime.Extensions;
+using TheForge.Extensions;
 using UnityEditor;
 using UnityEngine;
-using Vector2Int = Core.Runtime.Types.Vector2Int;
+using Vector2Int = TheForge.Types.Vector2Int;
 
 namespace BB.Management.FurniturePlacement.Props
 {

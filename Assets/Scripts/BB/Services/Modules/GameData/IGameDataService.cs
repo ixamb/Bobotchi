@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using BB.Data;
 using BB.Entities;
-using Core.Runtime.Services;
+using TheForge.Services;
 using UnityEngine;
 
 namespace BB.Services.Modules.GameData

@@ -8,7 +8,7 @@ using BB.Services.Modules.LocalSave;
 using BB.UI.Common.Components;
 using BB.UI.Inventory.Views;
 using BB.UI.Main;
-using Core.Runtime.Services.Views;
+using TheForge.Services.Views;
 
 namespace BB.UI.Common
 {

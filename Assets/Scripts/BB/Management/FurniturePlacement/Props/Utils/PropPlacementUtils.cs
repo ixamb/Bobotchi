@@ -3,7 +3,7 @@ using System.Linq;
 using BB.Data;
 using BB.Grid;
 using BB.Grid.Tiles;
-using Core.Runtime.Types;
+using TheForge.Types;
 
 namespace BB.Management.FurniturePlacement.Props.Utils
 {

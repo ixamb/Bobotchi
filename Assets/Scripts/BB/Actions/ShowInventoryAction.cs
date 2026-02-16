@@ -1,6 +1,6 @@
 using BB.UI.Inventory.Views;
-using Core.Runtime.Services.Views;
-using Core.Runtime.Systems.Actions;
+using TheForge.Services.Views;
+using TheForge.Systems.Actions;
 using UnityEngine;
 
 namespace BB.Actions
